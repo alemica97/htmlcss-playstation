@@ -2,6 +2,11 @@ img{
     max-width: 100%;
 }
 
+a{
+    color: currentColor;
+    cursor: pointer;
+}
+
 #fixed-up{
     height: 36px;
     background-color: black;
@@ -11,6 +16,26 @@ img{
     width: 75px;
 }
 
+/* modifiche alla navbar di bootstrap  */
 .navbar .search-icon{
     width: 25px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.ms_nav-ancor{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.ms_nav-ancor > i{
+    color: #9D9D9D;
+    font-size: 12px;
+}
+
+.dropdown-toggle::after{
+    display: none;
 }

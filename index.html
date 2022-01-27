@@ -131,7 +131,7 @@
 
     <main>
         <!-- per la prima sezione creo un elemento facilmente ripetibile nel codice, reso responsive tramite le classi di bootstrap  -->
-        <section class="container-fluid game-banner">
+        <section id="jumbo" class="container-fluid game-banner">
             <div class="row ms_banner-row">
                 <div class="col-12 col-lg-4 col-xl-3 p-sm-4 py-5 px-0 px-sm-2 px-md-3 px-lg-4 text-white">
                     <img class="jumbo-image" src="img/returnal-hero-banner-logo.png">
@@ -143,8 +143,8 @@
         </section>
 
         <!-- new-game cards section  -->
-        <section class="container-fluid new-games">
-            <div class="row g-4 p-4">
+        <section id="last-games" class="container-fluid new-games">
+            <div class="row py-4 px-1 px-sm-3 px-md-4 g-4">
 
                 <div class="col-6 col-sm-4 col-lg-2">
                     <div class="game-card active">
@@ -175,6 +175,28 @@
                     <div class="game-card">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg">
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- new-items -- product section  -->
+        <section id="new-items" class="container-fluid product text-center">
+            <span class="motto text-uppercase">play has no limits</span>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-4">Ecco la PlayStation 5</h1>
+                    <p class="product-paragraph">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                </div>
+            </div>
+
+            <div class="row text-start align-items-center">
+                <div class="col-12 col-md-5 px-4">
+                    <h1 class="mb-4 mt-5">Console PlayStation 5</h1>
+                    <p class="product-paragraph mb-4">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+                    <button class="btn btn-blue rounded-pill">Maggiori informazioni</button>
+                </div>
+                <div class="col-12 col-md-7">
+                    <img src="img/playstation-5-thumb.png" alt="">
                 </div>
             </div>
         </section>

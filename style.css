@@ -1,4 +1,16 @@
-.fixed-logo{
-    height: 95px;
+img{
+    max-width: 100%;
+}
+
+#fixed-up{
+    height: 36px;
     background-color: black;
+}
+
+#fixed-up .fixed-logo{
+    width: 75px;
+}
+
+.navbar .search-icon{
+    width: 25px;
 }

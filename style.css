@@ -16,26 +16,84 @@ a{
     width: 75px;
 }
 
+/* header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+} */
+
 /* modifiche alla navbar di bootstrap  */
 .navbar .search-icon{
     width: 25px;
 }
 
 .navbar{
-    padding: 0;
+    padding: 5px;
 }
 
-.navbar-light .navbar-nav .nav-link.ms_nav-ancor{
+.navbar-nav .nav-link.ms_nav-ancor{
     color: black;
     font-size: 15px;
     font-weight: 500;
 }
 
-.navbar-light .navbar-nav .nav-link.ms_nav-ancor > i{
+.navbar-nav .nav-link.ms_nav-ancor > i{
     color: #9D9D9D;
     font-size: 12px;
 }
 
 .dropdown-toggle::after{
     display: none;
+}
+
+/* main   GAME-BANNER  */
+.game-banner{
+    background-image: url(img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 5%;
+}
+
+.game-banner .jumbo-image{
+    max-width: 215px;
+}
+
+.game-banner .btn{
+    color: white;
+    font-weight: 500;
+}
+
+.btn-orange{
+    background-color: #CD3D0F;
+}
+
+.game-banner .ms_banner-row{
+    padding: 200px 15px 20px 10px
+}
+
+.game-banner .banner-title{
+    white-space: nowrap;
+}
+
+/* new-game card section  */
+.new-games .game-card > img{
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.new-games .game-card{
+    position: relative;
+}
+
+.new-games .game-card.active::after{
+    content: "";
+    display: block;
+    border: 2px solid #006DCC;
+    border-radius: px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;   
 }

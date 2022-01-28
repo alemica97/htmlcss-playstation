@@ -119,6 +119,10 @@ header{
     padding: 80px 20px 20px 20px;
 }
 
+#ps4{
+    padding: 80px 20px;
+}
+
 .product .motto{
     color: #127CD1;
     font-size: 18px;
@@ -185,8 +189,25 @@ header{
     overflow: hidden;
 }
 
+/* Playstation Plus  */
+#playstation-plus{
+    background-color: #BEBCBB;
+    font-weight: 600;
+}
 
+#playstation-plus .btn-white{
+    color: #2B63E6;
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
+#playstation-plus .row{
+    min-height: 395px;
+}
+
+.plus_now-logo{
+    width: 100%;
+    max-width: 325px;
+}
 
 @media screen and (max-width: 910px ){
     .navbar form .navbar-nav{

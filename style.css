@@ -65,7 +65,7 @@ header{
     background-position: 50% 0;
 }
 
-.game-banner .jumbo-image{
+.game-banner .banner-image{
     width: 100%;
     max-width: 218px;
 }
@@ -135,6 +135,41 @@ header{
     font-weight: 600;
 }
 
+.ms_accessories-card::after{
+    content: "";
+    display: block;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.ms_accessories-card.active::after,
+.ms_accessories-card:hover::after{
+    display: none;
+}
+
+.ms_accessories-card.active{
+    border-bottom: 2px solid #127CD1;
+}
+
+.ms_accessories-card:hover{
+    border-bottom: 2px solid #127CD1;
+}
+
+.ms_accessories-card img{
+    display: block;
+}
+
+/* It Takes Two section  */
+#takes-two{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
 
 @media screen and (max-width: 910px ){
     .navbar form .navbar-nav{

@@ -29,6 +29,10 @@ a{
     background-color: #2D64E6;
 }
 
+header{
+    display: contents;
+}
+
 /* modifiche alla navbar di bootstrap  */
 .navbar .search-icon{
     width: 25px;
@@ -54,15 +58,16 @@ a{
 }
 
 /* main   GAME-BANNER  */
-.game-banner{
+#jumbo{
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 5%;
+    background-position: 50% 0;
 }
 
 .game-banner .jumbo-image{
-    max-width: 215px;
+    width: 100%;
+    max-width: 218px;
 }
 
 .game-banner .btn{
@@ -71,7 +76,7 @@ a{
 }
 
 .game-banner .ms_banner-row{
-    padding: 200px 15px 20px 10px
+    min-height: 600px;
 }
 
 .game-banner .banner-title{
@@ -79,6 +84,9 @@ a{
 }
 
 /* new-game card section  */
+#last-games .row{
+    padding: 40px 0;
+}
 .new-games .game-card > img{
     border-radius: 20px;
     overflow: hidden;
@@ -88,16 +96,22 @@ a{
     position: relative;
 }
 
-.new-games .game-card.active::after{
+.new-games .game-card.active::after,
+.game-card:hover::after{
     content: "";
     display: block;
-    border: 2px solid #0070CD;
+    border: 3px solid #127CD1;
     border-radius: 25px;
     position: absolute;
-    top: -5px;
-    right: -5px;
-    bottom: -5px;
-    left: -5px;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+}
+
+.game-card:hover{
+    transform: translateY(-10%);
+    transition: all 500ms;
 }
 
 /* new-items -- product section   */
@@ -106,7 +120,7 @@ a{
 }
 
 .product .motto{
-    color: #0070CD;
+    color: #127CD1;
     font-size: 18px;
     font-weight: 600;
 }
@@ -118,5 +132,12 @@ a{
 }
 
 .product h1{
-    font-size: 40px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 910px ){
+    .navbar form .navbar-nav{
+        display: none;
+    }
 }

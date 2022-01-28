@@ -171,6 +171,23 @@ header{
     background-position: 50% 0;
 }
 
+
+/* lista delle nuove uscite (new-releases)  */
+#new-releases{
+    color: white;
+    font-weight: 500;
+    background-color: #1F1F1F;
+    padding: 40px 35px;
+}
+
+#new-releases .release-card img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+
 @media screen and (max-width: 910px ){
     .navbar form .navbar-nav{
         display: none;

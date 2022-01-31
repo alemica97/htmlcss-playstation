@@ -213,6 +213,17 @@ header{
     max-width: 325px;
 }
 
+/* sezione sconti sales  */
+#sales{
+    padding: 50px 20px;
+}
+
+#sales .product-paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    color: #727272;
+}
+
 @media screen and (max-width: 910px ){
     .navbar form .navbar-nav{
         display: none;

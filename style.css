@@ -61,6 +61,29 @@ header{
     display: none;
 }
 
+/* DROPDOWN  */
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.dropdown, .dropend, .dropstart, .dropup {
+    position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    width: 100%;
+    padding: .5rem 0;
+    color: #212529;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 0px;
+}
 /* main   GAME-BANNER  */
 #jumbo{
     background-image: url(img/jumbo-bg.png);

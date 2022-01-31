@@ -7,6 +7,10 @@ a{
     cursor: pointer;
 }
 
+ul{
+    list-style-type: none;
+}
+
 #fixed-up{
     height: 36px;
     background-color: black;
@@ -235,6 +239,42 @@ header{
     color: black;
 }
 
+/* footer   */
+footer {
+    background-color: #00439C;
+    color: white;
+    padding: 60px 30px;
+}
+
+footer .country{
+    font-size: 12px;
+}
+
+footer .link-footer{
+    padding: 0;
+    font-size: 14px;
+}
+
+footer .link-footer a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+footer .link-footer a:hover{
+    color: rgba(255, 255, 255, 1)
+}
+
+.sie-wrapper{
+    max-width: 140px;
+}
+
+.sie-p{
+    font-size: 12px;
+}
+
+.sie-p a:hover{
+    color: white;
+}
 @media screen and (max-width: 910px ){
     .navbar form .navbar-nav{
         display: none;

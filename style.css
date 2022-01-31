@@ -150,6 +150,10 @@ header{
     left: 0;
 }
 
+.ms_accessories-card{
+    border-bottom: 2px solid transparent;
+}
+
 .ms_accessories-card.active::after,
 .ms_accessories-card:hover::after{
     display: none;

@@ -57,6 +57,11 @@ header{
     font-size: 12px;
 }
 
+.navbar-nav .nav-link.ms_nav-ancor:hover,
+.navbar-nav .nav-link.ms_nav-ancor > i:hover{
+    color: #127CD1;
+}
+
 .dropdown-toggle::after{
     display: none;
 }
@@ -80,10 +85,25 @@ header{
     width: 100%;
     padding: .5rem 0;
     color: #212529;
-    background-color: #F8F9FA;
+    background-color: white;
     border: none;
     border-radius: 0px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2);;
 }
+
+.navbar .dropdown-item {
+    display: inline-block;
+    max-width: 250px;
+    font-weight: 500;
+    color: #212529;
+    text-align: center;
+}
+
+.navbar .dropdown-item:hover{
+    color: #127CD1;
+    background-color: transparent;
+}
+
 /* main   GAME-BANNER  */
 #jumbo{
     background-image: url(img/jumbo-bg.png);
